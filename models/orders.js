@@ -2,7 +2,6 @@ const Sequelize = require('sequelize');
 const sequelize = require('../util/database');
 
 // id, name, password, phone no, role
-
 const Order = sequelize.define('order', {
     id: {
         type: Sequelize.INTEGER,

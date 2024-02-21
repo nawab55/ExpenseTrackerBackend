@@ -78,31 +78,6 @@ const login = async (req, res) => {
 };
 
 
-// const login = (req, res) => {
-//     const { email, password } = req.body;
-//     console.log(password);
-
-//     if(isStringValid(email) || isStringValid(password)){
-//         return res.status(400).json({ message: "Email or Password is missing", success: false });
-//     }
-
-//     User.findAll({ where: { email } }).then(user => {
-//         if(user.length > 0){
-//             if(user[0].password === password){
-//                 return res.status(200).json({ success: true, message: "User logged in successfully" });
-//             } else{
-//                 return res.status(400).json({success: false, message: "Password is incorrect"});
-//             }
-//         } else{
-//             return res.status(404).json({success: false, message: "User Doesnot exists"});
-//         }
-//     }).catch(err => {
-//         // console.log(err);
-//         res.status(500).json({ message: err, success: false });
-//     })
-    
-// }
-
 module.exports = {
     signup,
     login,

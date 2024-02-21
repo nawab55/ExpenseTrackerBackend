@@ -1,5 +1,4 @@
 const express = require('express');
-
 const purchaseController = require('../controllers/purchase');
 const authenticatemiddleware = require('../middleware/auth');
 

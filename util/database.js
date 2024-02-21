@@ -5,6 +5,7 @@ const sequelize = new Sequelize( process.env.DB_NAME, process.env.DB_USERNAME, p
   dialect: 'mysql',
 });
 
+
 // Test the database connection
 sequelize.authenticate()
   .then(() => {

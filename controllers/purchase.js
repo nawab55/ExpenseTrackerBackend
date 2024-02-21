@@ -1,6 +1,6 @@
 const Razorpay = require('razorpay');
 const { Order } = require('../models/orders');
-const userController = require('./user')
+const userController = require('./user');
 
 const purchasepremium = async(req, res) => {
     try{

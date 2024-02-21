@@ -7,8 +7,6 @@ async function signup(e) {
         var email = document.getElementById('email').value;
         var password = document.getElementById('password').value;
 
-    
-
         // Prepare data for the server
         var signupDetails = {
             username: username,

@@ -1,6 +1,6 @@
+const bcrypt = require('bcrypt');
 const uuid = require('uuid');
 const sgMail = require('@sendgrid/mail');
-const bcrypt = require('bcrypt');
 
 const { User } = require('../models/usermodel');
 const Forgotpassword = require('../models/forgotpassword');

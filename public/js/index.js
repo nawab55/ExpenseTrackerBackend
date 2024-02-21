@@ -265,7 +265,6 @@ document.getElementById("rzp-button1").onclick = async function (e) {
     },
   };
   const rzp1 = new Razorpay(options);
-
   rzp1.open();
   e.preventDefault();
 

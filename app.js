@@ -3,14 +3,12 @@ const path = require('path');
 const fs = require('fs');
 const bodyParser = require('body-parser');
 
-
 const app = express();
 
 const dotenv = require("dotenv")
 dotenv.config();
 
 const cors = require('cors');
-
 app.use(cors());
 
 const sequelize = require('./util/database');

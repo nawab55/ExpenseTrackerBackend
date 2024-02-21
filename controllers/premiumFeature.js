@@ -1,6 +1,6 @@
+const sequelize = require('../util/database');
 const { User } = require('../models/usermodel');
 const { Expense } = require('../models/expenses');
-const sequelize = require('../util/database');
 
 const getUserLeaderBoard = async (req, res) => {
     try {

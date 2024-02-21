@@ -7,7 +7,6 @@ async function login(e) {
         email: email,
         password: password
     };
-
     const apiUrl = 'http://localhost:3000/user/login';
     
     try {
